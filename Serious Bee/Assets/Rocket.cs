@@ -13,6 +13,22 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ProcessInput();
+    }
+
+    private void ProcessInput()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            // do stuff
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            // do stuff
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            // do stuff
+        }
     }
 }
